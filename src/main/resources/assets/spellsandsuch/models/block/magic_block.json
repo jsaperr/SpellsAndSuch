@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "spellsandsuch:block/magic_block"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "sap",
+  "version": "${version}",
+  "name": "Spells and Such",
+  "description": "A mod adding a wide variety of spells and spell-adjacent features to Minecraft.",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/sap/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.jsaperr.sap.client.SpellsAndSuchClient"
+    ],
+    "main": [
+      "com.jsaperr.sap.SpellsAndSuch"
+    ]
+  },
+  "mixins": [
+    "sap.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

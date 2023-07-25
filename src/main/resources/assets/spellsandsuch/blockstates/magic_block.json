@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "spellsandsuch:block/magic_block" }
+  }
+}
